@@ -1,0 +1,109 @@
+{
+  "app": {
+    "title": "Roots & Recipes",
+    "tagline": "It's not just food, there's a story behind it",
+    "description": "Explore Bangladeshi cuisine through interactive storytelling"
+  },
+  "nav": {
+    "home": "Home",
+    "dishes": "Dishes",
+    "ingredients": "Ingredients",
+    "occasions": "Occasions",
+    "about": "About"
+  },
+  "home": {
+    "hero": {
+      "title": "Discover the Stories Behind Bangladeshi Cuisine",
+      "subtitle": "Each dish carries generations of tradition, culture, and love",
+      "cta": "Explore Dishes"
+    },
+    "featured": {
+      "title": "Featured Dishes",
+      "subtitle": "Discover our handpicked selection",
+      "tonightMenu": "Tonight's Menu",
+      "monsoonComfort": "Monsoon Comfort",
+      "viewAll": "View All Dishes"
+    },
+    "map": {
+      "title": "Explore by Region",
+      "subtitle": "Click on a region to discover its culinary treasures"
+    },
+    "filters": {
+      "title": "Find Your Perfect Dish",
+      "dietary": "Dietary Type",
+      "heatLevel": "Heat Level",
+      "occasion": "Occasion",
+      "region": "Region",
+      "all": "All",
+      "vegetarian": "Vegetarian",
+      "vegan": "Vegan",
+      "pescatarian": "Pescatarian",
+      "meat": "Meat",
+      "mild": "Mild",
+      "medium": "Medium",
+      "spicy": "Spicy",
+      "verySpicy": "Very Spicy"
+    }
+  },
+  "dish": {
+    "sections": {
+      "whatItIs": "What it is",
+      "whyItMatters": "Why it matters",
+      "howItsMade": "How it's made",
+      "tasteTex": "Taste & Texture",
+      "howWeEatIt": "How we eat it",
+      "funFacts": "Fun Facts"
+    },
+    "ingredients": "Ingredients",
+    "gallery": "Gallery",
+    "origin": "Origin",
+    "prepTime": "Prep Time",
+    "minutes": "minutes",
+    "heatLevel": "Heat Level",
+    "dietaryType": "Dietary Type",
+    "allergens": "Allergens",
+    "occasions": "Best for",
+    "tapToLearn": "Tap to learn more",
+    "relatedDishes": "Similar Dishes"
+  },
+  "ingredient": {
+    "flavorNotes": "Flavor Notes",
+    "origin": "Origin & History",
+    "substitutions": "Substitutions",
+    "allergens": "Allergens",
+    "usedIn": "Used in these dishes",
+    "none": "None"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "tryAgain": "Try Again",
+    "close": "Close",
+    "share": "Share",
+    "save": "Save",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "search": "Search",
+    "filter": "Filter",
+    "sortBy": "Sort by",
+    "viewMore": "View More",
+    "viewLess": "View Less"
+  },
+  "theme": {
+    "light": "Light Mode",
+    "dark": "Dark Mode",
+    "toggle": "Toggle Theme"
+  },
+  "language": {
+    "en": "English",
+    "de": "Deutsch",
+    "bn": "বাংলা",
+    "select": "Select Language"
+  },
+  "footer": {
+    "tagline": "Preserving culinary heritage through stories",
+    "copyright": "© 2025 Roots & Recipes. All rights reserved.",
+    "madeWith": "Made with ❤️ for Bangladesh"
+  }
+}

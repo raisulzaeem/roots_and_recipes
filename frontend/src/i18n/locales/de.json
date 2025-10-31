@@ -1,0 +1,109 @@
+{
+  "app": {
+    "title": "Roots & Recipes",
+    "tagline": "Es ist nicht nur Essen, es steckt eine Geschichte dahinter",
+    "description": "Erkunden Sie die bangladeschische Küche durch interaktives Storytelling"
+  },
+  "nav": {
+    "home": "Startseite",
+    "dishes": "Gerichte",
+    "ingredients": "Zutaten",
+    "occasions": "Anlässe",
+    "about": "Über uns"
+  },
+  "home": {
+    "hero": {
+      "title": "Entdecken Sie die Geschichten der bangladeschischen Küche",
+      "subtitle": "Jedes Gericht trägt Generationen von Tradition, Kultur und Liebe",
+      "cta": "Gerichte erkunden"
+    },
+    "featured": {
+      "title": "Ausgewählte Gerichte",
+      "subtitle": "Entdecken Sie unsere handverlesene Auswahl",
+      "tonightMenu": "Heutiges Menü",
+      "monsoonComfort": "Monsun-Komfort",
+      "viewAll": "Alle Gerichte ansehen"
+    },
+    "map": {
+      "title": "Nach Region erkunden",
+      "subtitle": "Klicken Sie auf eine Region, um ihre kulinarischen Schätze zu entdecken"
+    },
+    "filters": {
+      "title": "Finden Sie Ihr perfektes Gericht",
+      "dietary": "Ernährungsart",
+      "heatLevel": "Schärfegrad",
+      "occasion": "Anlass",
+      "region": "Region",
+      "all": "Alle",
+      "vegetarian": "Vegetarisch",
+      "vegan": "Vegan",
+      "pescatarian": "Pescetarisch",
+      "meat": "Fleisch",
+      "mild": "Mild",
+      "medium": "Mittel",
+      "spicy": "Scharf",
+      "verySpicy": "Sehr scharf"
+    }
+  },
+  "dish": {
+    "sections": {
+      "whatItIs": "Was es ist",
+      "whyItMatters": "Warum es wichtig ist",
+      "howItsMade": "Wie es gemacht wird",
+      "tasteTex": "Geschmack & Textur",
+      "howWeEatIt": "Wie wir es essen",
+      "funFacts": "Wissenswertes"
+    },
+    "ingredients": "Zutaten",
+    "gallery": "Galerie",
+    "origin": "Herkunft",
+    "prepTime": "Zubereitungszeit",
+    "minutes": "Minuten",
+    "heatLevel": "Schärfegrad",
+    "dietaryType": "Ernährungsart",
+    "allergens": "Allergene",
+    "occasions": "Am besten für",
+    "tapToLearn": "Tippen Sie, um mehr zu erfahren",
+    "relatedDishes": "Ähnliche Gerichte"
+  },
+  "ingredient": {
+    "flavorNotes": "Geschmacksnoten",
+    "origin": "Herkunft & Geschichte",
+    "substitutions": "Ersatzstoffe",
+    "allergens": "Allergene",
+    "usedIn": "Verwendet in diesen Gerichten",
+    "none": "Keine"
+  },
+  "common": {
+    "loading": "Wird geladen...",
+    "error": "Etwas ist schief gelaufen",
+    "tryAgain": "Erneut versuchen",
+    "close": "Schließen",
+    "share": "Teilen",
+    "save": "Speichern",
+    "back": "Zurück",
+    "next": "Weiter",
+    "previous": "Zurück",
+    "search": "Suchen",
+    "filter": "Filter",
+    "sortBy": "Sortieren nach",
+    "viewMore": "Mehr anzeigen",
+    "viewLess": "Weniger anzeigen"
+  },
+  "theme": {
+    "light": "Hell-Modus",
+    "dark": "Dunkel-Modus",
+    "toggle": "Design wechseln"
+  },
+  "language": {
+    "en": "English",
+    "de": "Deutsch",
+    "bn": "বাংলা",
+    "select": "Sprache wählen"
+  },
+  "footer": {
+    "tagline": "Kulinarisches Erbe durch Geschichten bewahren",
+    "copyright": "© 2025 Roots & Recipes. Alle Rechte vorbehalten.",
+    "madeWith": "Mit ❤️ für Bangladesch gemacht"
+  }
+}
