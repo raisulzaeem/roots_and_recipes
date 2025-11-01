@@ -1,7 +1,7 @@
 /**
  * Main App component with routing
  */
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { useTheme } from './hooks';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
@@ -20,8 +20,11 @@ function App() {
         <main className="flex-1">
           <Routes>
             <Route path="/" element={<HomePage />} />
+            <Route path="/dishes" element={<Navigate to="/" replace />} />
             <Route path="/dishes/:id" element={<DishDetailPage />} />
+            <Route path="/ingredients" element={<Navigate to="/" replace />} />
             <Route path="/ingredients/:id" element={<IngredientDetailPage />} />
+            <Route path="/occasions" element={<Navigate to="/" replace />} />
             <Route path="*" element={<NotFoundPage />} />
           </Routes>
         </main>
