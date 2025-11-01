@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 # Build script for Render
 
+# Disable Poetry auto-detection
+export RENDER_RUNTIME_PYTHON_MANAGER=pip
+
 echo "Installing dependencies..."
 pip install -r requirements.txt
 
