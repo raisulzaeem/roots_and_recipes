@@ -76,6 +76,7 @@
   },
   "common": {
     "loading": "Wird geladen...",
+    "serverWakingUp": "Der Server wacht aus dem Ruhezustand auf. Dies kann beim ersten Besuch 30-60 Sekunden dauern. Vielen Dank für Ihre Geduld! ☕",
     "error": "Etwas ist schief gelaufen",
     "tryAgain": "Erneut versuchen",
     "close": "Schließen",

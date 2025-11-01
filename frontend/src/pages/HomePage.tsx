@@ -15,6 +15,7 @@ const HomePage = () => {
   const [regions, setRegions] = useState<Region[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [isFirstLoad, setIsFirstLoad] = useState(true);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -26,6 +27,7 @@ const HomePage = () => {
         ]);
         setDishes(dishesData.dishes);
         setRegions(regionsData);
+        setIsFirstLoad(false);
       } catch (err) {
         setError('Failed to load data');
         console.error(err);
@@ -37,7 +39,7 @@ const HomePage = () => {
     fetchData();
   }, []);
 
-  if (loading) return <Loading fullScreen />;
+  if (loading) return <Loading fullScreen showColdStartMessage={isFirstLoad} />;
   if (error) return <ErrorMessage message={error} onRetry={() => window.location.reload()} />;
 
   return (

@@ -76,6 +76,7 @@
   },
   "common": {
     "loading": "Loading...",
+    "serverWakingUp": "The server is waking up from sleep. This may take 30-60 seconds on the first visit. Thanks for your patience! ☕",
     "error": "Something went wrong",
     "tryAgain": "Try Again",
     "close": "Close",

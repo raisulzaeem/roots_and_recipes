@@ -18,7 +18,23 @@ const api = axios.create({
   headers: {
     'Content-Type': 'application/json',
   },
+  timeout: 60000, // 60 seconds timeout for cold starts
 });
+
+// Add request interceptor for retry logic
+let isWakingUp = false;
+
+api.interceptors.request.use((config) => {
+  // Track if we're making the first request (likely a cold start)
+  if (!isWakingUp && config.url?.includes('/api/')) {
+    isWakingUp = true;
+    setTimeout(() => { isWakingUp = false; }, 5000); // Reset after 5 seconds
+  }
+  return config;
+});
+
+// Check if server is warming up
+export const isServerWakingUp = () => isWakingUp;
 
 // Dishes API
 export const dishesApi = {
