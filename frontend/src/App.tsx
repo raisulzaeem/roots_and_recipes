@@ -6,6 +6,7 @@ import { useTheme } from './hooks';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
+import DishesPage from './pages/DishesPage';
 import DishDetailPage from './pages/DishDetailPage';
 import IngredientDetailPage from './pages/IngredientDetailPage';
 import NotFoundPage from './pages/NotFoundPage';
@@ -20,7 +21,7 @@ function App() {
         <main className="flex-1">
           <Routes>
             <Route path="/" element={<HomePage />} />
-            <Route path="/dishes" element={<Navigate to="/" replace />} />
+            <Route path="/dishes" element={<DishesPage />} />
             <Route path="/dishes/:id" element={<DishDetailPage />} />
             <Route path="/ingredients" element={<Navigate to="/" replace />} />
             <Route path="/ingredients/:id" element={<IngredientDetailPage />} />
