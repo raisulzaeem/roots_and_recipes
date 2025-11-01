@@ -13,10 +13,19 @@ import ErrorMessage from '../components/ErrorMessage';
 
 const DishDetailPage = () => {
   const { id } = useParams<{ id: string }>();
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const [dish, setDish] = useState<Dish | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+
+  // Helper function to get localized field
+  const getLocalizedField = (field: string): string | undefined => {
+    if (!dish) return undefined;
+    const lang = i18n.language;
+    const suffix = lang === 'de' ? '_de' : lang === 'bn' ? '_bn' : '';
+    const localizedKey = `${field}${suffix}`;
+    return (dish as any)[localizedKey] || (dish as any)[field];
+  };
 
   useEffect(() => {
     const fetchDish = async () => {
@@ -34,7 +43,7 @@ const DishDetailPage = () => {
     };
 
     fetchDish();
-  }, [id]);
+  }, [id, i18n.language]);
 
   if (loading) return <Loading fullScreen />;
   if (error) return <ErrorMessage message={error} onRetry={() => window.location.reload()} />;
@@ -74,25 +83,25 @@ const DishDetailPage = () => {
       {/* Content */}
       <div className="container-custom section-padding">
         {/* What it is */}
-        {dish.what_it_is && (
+        {getLocalizedField('what_it_is') && (
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-gray-900 dark:text-gray-100 mb-4">
               {t('dish.sections.whatItIs')}
             </h2>
             <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-              {dish.what_it_is}
+              {getLocalizedField('what_it_is')}
             </p>
           </section>
         )}
 
         {/* Why it matters */}
-        {dish.why_it_matters && (
+        {getLocalizedField('why_it_matters') && (
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-gray-900 dark:text-gray-100 mb-4">
               {t('dish.sections.whyItMatters')}
             </h2>
             <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-              {dish.why_it_matters}
+              {getLocalizedField('why_it_matters')}
             </p>
           </section>
         )}
@@ -118,49 +127,49 @@ const DishDetailPage = () => {
         )}
 
         {/* How it's made */}
-        {dish.how_its_made && (
+        {getLocalizedField('how_its_made') && (
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-gray-900 dark:text-gray-100 mb-4">
               {t('dish.sections.howItsMade')}
             </h2>
             <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed whitespace-pre-line">
-              {dish.how_its_made}
+              {getLocalizedField('how_its_made')}
             </p>
           </section>
         )}
 
         {/* Taste & Texture */}
-        {dish.taste_texture && (
+        {getLocalizedField('taste_texture') && (
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-gray-900 dark:text-gray-100 mb-4">
               {t('dish.sections.tasteTex')}
             </h2>
             <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-              {dish.taste_texture}
+              {getLocalizedField('taste_texture')}
             </p>
           </section>
         )}
 
         {/* How we eat it */}
-        {dish.how_we_eat_it && (
+        {getLocalizedField('how_we_eat_it') && (
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-gray-900 dark:text-gray-100 mb-4">
               {t('dish.sections.howWeEatIt')}
             </h2>
             <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-              {dish.how_we_eat_it}
+              {getLocalizedField('how_we_eat_it')}
             </p>
           </section>
         )}
 
         {/* Fun Facts */}
-        {dish.fun_facts && (
+        {getLocalizedField('fun_facts') && (
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-gray-900 dark:text-gray-100 mb-4">
               {t('dish.sections.funFacts')}
             </h2>
             <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed whitespace-pre-line">
-              {dish.fun_facts}
+              {getLocalizedField('fun_facts')}
             </p>
           </section>
         )}
