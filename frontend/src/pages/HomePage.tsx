@@ -54,7 +54,7 @@ const HomePage = () => {
             {t('home.hero.subtitle')}
           </p>
           <Link
-            to="#dishes"
+            to="/dishes"
             className="inline-block bg-white text-primary-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors shadow-lg animate-slide-up"
           >
             {t('home.hero.cta')}
