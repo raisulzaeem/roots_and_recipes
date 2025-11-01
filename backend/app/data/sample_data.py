@@ -289,5 +289,56 @@ DISHES = [
         ],
         "ingredient_ids": [1, 2],  # Mustard oil, green chili
         "occasion_ids": [3]  # Monsoon
+    },
+    {
+        "id": 4,
+        "name": "Kacchi Biryani",
+        "name_de": "Kacchi Biryani",
+        "name_bn": "কাচ্চি বিরিয়ানি",
+        "hero_image": "/images/dishes/kacchi-biryani-hero.jpg",
+        "hero_video": None,
+        "region_id": 1,  # Dhaka
+        "dietary_type": "meat",
+        "heat_level": 3,
+        "what_it_is": "A royal layered biryani where marinated raw mutton and half-cooked fragrant basmati rice are slow-cooked together in a sealed pot using the traditional 'dum' method. The ultimate celebration dish.",
+        "what_it_is_de": "Ein königliches geschichtetes Biryani, bei dem mariniertes rohes Hammelfleisch und halbgekochter duftender Basmatireis in einem verschlossenen Topf nach der traditionellen 'Dum'-Methode langsam zusammen gekocht werden. Das ultimative Festessen.",
+        "what_it_is_bn": "একটি রাজকীয় স্তরযুক্ত বিরিয়ানি যেখানে মেরিনেট করা কাঁচা মাটন এবং অর্ধ-রান্না করা সুগন্ধি বাসমতি চাল ঐতিহ্যবাহী 'দম' পদ্ধতি ব্যবহার করে একটি সিল করা পাত্রে একসাথে ধীরে রান্না করা হয়। চূড়ান্ত উদযাপনের খাবার।",
+        "why_it_matters": "Kacchi Biryani is the crown jewel of Bangladeshi cuisine. Reserved for weddings, Eid, and grand celebrations, it represents hospitality, abundance, and culinary mastery. Making authentic kacchi is a rite of passage for cooks.",
+        "why_it_matters_de": "Kacchi Biryani ist das Kronjuwel der bangladeschischen Küche. Reserviert für Hochzeiten, Eid und große Feiern, repräsentiert es Gastfreundschaft, Überfluss und kulinarische Meisterschaft. Die Zubereitung von authentischem Kacchi ist ein Initiationsritus für Köche.",
+        "why_it_matters_bn": "কাচ্চি বিরিয়ানি বাংলাদেশী রন্ধনশিল্পের মুকুট রত্ন। বিবাহ, ঈদ এবং বড় উদযাপনের জন্য সংরক্ষিত, এটি আতিথেয়তা, প্রাচুর্য এবং রন্ধন দক্ষতার প্রতিনিধিত্ব করে। খাঁটি কাচ্চি তৈরি করা রান্নার জন্য একটি দীক্ষার অনুষ্ঠান।",
+        "how_its_made": "Marinate mutton in yogurt, spices, saffron, and ghee for hours. Parboil basmati rice with whole spices. Layer raw marinated meat at the bottom of a heavy pot, top with partially cooked rice, fried onions, boiled eggs, and potatoes. Seal the pot tightly and cook on very low heat (dum) for 45-60 minutes. The steam and meat juices cook everything to perfection.",
+        "how_its_made_de": "Hammelfleisch stundenlang in Joghurt, Gewürzen, Safran und Ghee marinieren. Basmatireis mit ganzen Gewürzen vorkochen. Rohes mariniertes Fleisch am Boden eines schweren Topfes schichten, mit teilweise gekochtem Reis, gebratenen Zwiebeln, gekochten Eiern und Kartoffeln belegen. Den Topf fest verschließen und 45-60 Minuten bei sehr schwacher Hitze (Dum) kochen. Der Dampf und die Fleischsäfte kochen alles zur Perfektion.",
+        "how_its_made_bn": "মাটনকে দই, মসলা, জাফরান এবং ঘিতে ঘন্টার জন্য মেরিনেট করুন। পুরো মসলা দিয়ে বাসমতি চাল পার্বয়েল করুন। একটি ভারী পাত্রের নীচে কাঁচা মেরিনেট করা মাংস স্তর করুন, আংশিক রান্না করা চাল, ভাজা পেঁয়াজ, সেদ্ধ ডিম এবং আলু দিয়ে শীর্ষ করুন। পাত্রটি শক্তভাবে সিল করুন এবং 45-60 মিনিটের জন্য খুব কম তাপে (দম) রান্না করুন। বাষ্প এবং মাংসের রস সবকিছু পূর্ণতায় রান্না করে।",
+        "taste_texture": "Each grain of rice is separate, infused with saffron and spices. The mutton falls off the bone, incredibly tender and flavorful. Layers of crispy fried onions add texture. The potatoes absorb all the rich flavors. Aromatic, indulgent, unforgettable.",
+        "taste_texture_de": "Jedes Reiskorn ist separat, durchdrungen von Safran und Gewürzen. Das Hammelfleisch fällt vom Knochen, unglaublich zart und geschmackvoll. Schichten von knusprigen gebratenen Zwiebeln fügen Textur hinzu. Die Kartoffeln absorbieren alle reichen Aromen. Aromatisch, genussvoll, unvergesslich.",
+        "taste_texture_bn": "চালের প্রতিটি দানা আলাদা, জাফরান এবং মসলা দিয়ে মিশ্রিত। মাটন হাড় থেকে পড়ে যায়, অবিশ্বাস্যভাবে কোমল এবং স্বাদযুক্ত। কুঁচকুচে ভাজা পেঁয়াজের স্তর টেক্সচার যোগ করে। আলু সমস্ত সমৃদ্ধ স্বাদ শোষণ করে। সুগন্ধযুক্ত, আনন্দদায়ক, অবিস্মরণীয়।",
+        "how_we_eat_it": "Serve on a large platter, garnished with fried onions, boiled eggs, and fresh coriander. Traditionally eaten with hands from a communal plate. Pair with raita (yogurt sauce), salad, and borhani (spiced yogurt drink). Save room - portions are generous!",
+        "how_we_eat_it_de": "Auf einer großen Platte servieren, garniert mit gebratenen Zwiebeln, gekochten Eiern und frischem Koriander. Traditionell mit den Händen von einem gemeinsamen Teller gegessen. Mit Raita (Joghurtsauce), Salat und Borhani (gewürztes Joghurtgetränk) kombinieren. Platz lassen - die Portionen sind großzügig!",
+        "how_we_eat_it_bn": "একটি বড় থালায় পরিবেশন করুন, ভাজা পেঁয়াজ, সেদ্ধ ডিম এবং তাজা ধনে পাতা দিয়ে সাজান। ঐতিহ্যগতভাবে একটি সাম্প্রদায়িক প্লেট থেকে হাত দিয়ে খাওয়া হয়। রাইতা (দই সস), সালাদ এবং বোরহানি (মসলাযুক্ত দই পানীয়) এর সাথে জোড়া লাগান। জায়গা সংরক্ষণ করুন - অংশগুলি উদার!",
+        "fun_facts": "• The word 'kacchi' means 'raw' - referring to the raw meat\n• Old Dhaka is famous for the best kacchi biryani in Bangladesh\n• A proper kacchi biryani pot should never be stirred during cooking\n• The 'dum' creates a unique aroma that fills the entire house\n• Premium kacchi uses pure ghee worth its weight in gold",
+        "fun_facts_de": "• Das Wort 'Kacchi' bedeutet 'roh' - bezieht sich auf das rohe Fleisch\n• Alt-Dhaka ist berühmt für das beste Kacchi Biryani in Bangladesch\n• Ein richtiger Kacchi-Biryani-Topf sollte während des Kochens niemals gerührt werden\n• Das 'Dum' erzeugt ein einzigartiges Aroma, das das ganze Haus erfüllt\n• Premium-Kacchi verwendet reines Ghee, das sein Gewicht in Gold wert ist",
+        "fun_facts_bn": "• 'কাচ্চি' শব্দের অর্থ 'কাঁচা' - কাঁচা মাংসকে বোঝায়\n• পুরাতন ঢাকা বাংলাদেশের সেরা কাচ্চি বিরিয়ানির জন্য বিখ্যাত\n• একটি সঠিক কাচ্চি বিরিয়ানি পাত্র রান্নার সময় কখনও নাড়ানো উচিত নয়\n• 'দম' একটি অনন্য সুবাস তৈরি করে যা পুরো বাড়ি ভরে দেয়\n• প্রিমিয়াম কাচ্চি খাঁটি ঘি ব্যবহার করে যা এর ওজনে সোনার মূল্যবান",
+        "allergens": ["dairy", "eggs"],
+        "prep_time_minutes": 180,
+        "map_hint": "Most famous in Old Dhaka, now beloved across all of Bangladesh",
+        "gallery": [
+            {
+                "url": "/images/dishes/kacchi-biryani-1.jpg",
+                "type": "image",
+                "caption": "Aromatic layers of rice and tender mutton",
+                "caption_de": "Aromatische Schichten aus Reis und zartem Hammelfleisch",
+                "caption_bn": "চাল এবং কোমল মাটনের সুগন্ধযুক্ত স্তর"
+            },
+            {
+                "url": "/images/dishes/kacchi-biryani-2.jpg",
+                "type": "image",
+                "caption": "Garnished with fried onions, eggs, and potatoes",
+                "caption_de": "Garniert mit gebratenen Zwiebeln, Eiern und Kartoffeln",
+                "caption_bn": "ভাজা পেঁয়াজ, ডিম এবং আলু দিয়ে সাজানো"
+            }
+        ],
+        "ingredient_ids": [1],  # Uses ghee (can add more ingredients as needed)
+        "occasion_ids": [2]  # Eid (can add wedding occasion if you create one)
     }
 ]
+
