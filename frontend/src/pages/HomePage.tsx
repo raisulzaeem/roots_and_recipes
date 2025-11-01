@@ -76,7 +76,7 @@ const HomePage = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {dishes.filter(dish => dish.id !== 2).map((dish) => (
+            {dishes.filter(dish => [1, 4, 6].includes(dish.id)).map((dish) => (
               <Link
                 key={dish.id}
                 to={`/dishes/${dish.id}`}
